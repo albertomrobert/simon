@@ -1,32 +1,45 @@
-+body {
-                              
-      font-family: 'Press Start 2P';
-      background: url("http://www.pixempire.com/images/preview/royal-pattern-in-dark-grays.jpg");
-          
-      }
-  
-    h1 { 
-      
-      color: white;
-      text-align: center;
-      position: relative;
-      bottom: 100px;
+    body {
+
+    background: #7d7e7d; /* Old browsers */
+    background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
     
     }
+
+    .btn {
+      margin: 0 auto;
+    }
+  
+    h1 {    
+      color: white;
+      text-align: center;
+    }
+
+    h4 { 
+      font-family:'Press Start 2P';
+      color: white;
+      margin-left: 41%;
+    }
     
+    li{
+      list-style-type: square;
+    }
+
     table {
-
-background: #1b1b1b; /* Old browsers */
-background: -moz-linear-gradient(top, #1b1b1b 0%, #4e4e4e 8%, #383838 16%, #4e4e4e 24%, #383838 32%, #0d0d0d 42%, #383838 50%, #383838 59%, #4e4e4e 68%, #0d0d0d 77%, #4e4e4e 86%, #383838 95%, #1b1b1b 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #1b1b1b 0%,#4e4e4e 8%,#383838 16%,#4e4e4e 24%,#383838 32%,#0d0d0d 42%,#383838 50%,#383838 59%,#4e4e4e 68%,#0d0d0d 77%,#4e4e4e 86%,#383838 95%,#1b1b1b 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #1b1b1b 0%,#4e4e4e 8%,#383838 16%,#4e4e4e 24%,#383838 32%,#0d0d0d 42%,#383838 50%,#383838 59%,#4e4e4e 68%,#0d0d0d 77%,#4e4e4e 86%,#383838 95%,#1b1b1b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1b1b', endColorstr='#1b1b1b',GradientType=0 );
-
-      margin: 200px auto;
+    
+    background: #1b1b1b; /* Old browsers */
+    background: -webkit-linear-gradient(#1b1b1b 0%, #4e4e4e 8%, #383838 16%, #4e4e4e 24%, #383838 32%, #0d0d0d 42%, #383838 50%, #383838 59%, #4e4e4e 68%, #0d0d0d 77%, #4e4e4e 86%, #383838 95%, #1b1b1b 100%);
+    background: -o-linear-gradient(#1b1b1b 0%, #4e4e4e 8%, #383838 16%, #4e4e4e 24%, #383838 32%, #0d0d0d 42%, #383838 50%, #383838 59%, #4e4e4e 68%, #0d0d0d 77%, #4e4e4e 86%, #383838 95%, #1b1b1b 100%);
+    background: linear-gradient(#1b1b1b 0%, #4e4e4e 8%, #383838 16%, #4e4e4e 24%, #383838 32%, #0d0d0d 42%, #383838 50%, #383838 59%, #4e4e4e 68%, #0d0d0d 77%, #4e4e4e 86%, #383838 95%, #1b1b1b 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1b1b', endColorstr='#1b1b1b',GradientType=0 );
+    
+      margin: 100px auto;
       width: 450px;
       height: 438px;
       padding: 0px;
-      border-spacing: 18px;
+      border-spacing: 12px;
       -webkit-border-radius: 100%;
       -moz-border-radius: 100%;     /* Comptibilidad con firefox */
       border-radius: 100%;
@@ -34,41 +47,41 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1b1b', end
       -webkit-box-shadow: 0px 25px 0px #222;
       box-shadow: 0px 30px 0px #111, 0px 40px 20px #000;
       position: relative;
-      margin-left: auto;
-      margin-right: auto;
+      border-collapse:separate;
       
       }
     
-    #hole {
+/*     #hole {
 
-      border: 12px solid #333;
-      margin: 150px;
-      width: 125px;
-      height: 122px;
-      background: url("http://www.pixempire.com/images/preview/royal-pattern-in-dark-grays.jpg");
-      position: absolute;
-      margin-left: -75px;
-      left: 50%;
-      top: 190px;
-      z-index: 1;
-      box-shadow: inset 0px 30px 0px #000;
-      -webkit-border-radius: 100%;
-      -moz-border-radius: 100%;     /* Comptibilidad con firefox */
-      border-radius: 100%;
-      
-      }
+  border: 12px solid #333;
+  margin: 150px;
+  width: 125px;
+  height: 122px;
+  background: url("http://www.pixempire.com/images/preview/royal-pattern-in-dark-grays.jpg");
+  position: absolute;
+  left: 24.25%;
+  top: 31.5%;
+  z-index: 1;
+  box-shadow: inset 0px 30px 0px #000;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;     Comptibilidad con firefox
+  border-radius: 100%;
+  
+  } */
     
     #verde {
           
-background: #c9de96; /* Old browsers */
-background: -moz-linear-gradient(45deg, #c9de96 0%, #8ab66b 44%, #398235 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(45deg, #c9de96 0%,#8ab66b 44%,#398235 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(45deg, #c9de96 0%,#8ab66b 44%,#398235 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9de96', endColorstr='#398235',GradientType=1 );
-
+    background: #c9de96; /* Old browsers */
+    background-image: background: -webkit-linear-gradient(bottom left, #c9de96 0%, #8ab66b 44%, #398235 100%);
+    background-image: background: -o-linear-gradient(bottom left, #c9de96 0%, #8ab66b 44%, #398235 100%);
+    background-image: background: linear-gradient(to top right, #c9de96 0%, #8ab66b 44%, #398235 100%);
+    background: -o-linear-gradient(bottom left, #c9de96 0%, #8ab66b 44%, #398235 100%);
+    background: linear-gradient(to top right, #c9de96 0%, #8ab66b 44%, #398235 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9de96', endColorstr='#398235',GradientType=1 );
+    
       width: 200px;
-      -webkit-border-top-left-radius:: 100%;
-      -moz-border-top-left-radius:: 100%;     /* Comptibilidad con firefox */
+      -webkit-border-top-left-radius: 100%;
+      -moz-border-top-left-radius: 100%;     /* Comptibilidad con firefox */
       border-top-left-radius: 100%;
       -moz-box-shadow: 0px 6px 0px #4f9124;
       -webkit-box-shadow: 0px 6px #4f9124;
@@ -90,16 +103,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9de96', end
       }
 
     #rojo {
-      
-background: #d32121; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #d32121 0%, #ff6254 49%, #ff9a99 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #d32121 0%,#ff6254 49%,#ff9a99 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #d32121 0%,#ff6254 49%,#ff9a99 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d32121', endColorstr='#ff9a99',GradientType=1 );
-
+       
+    background: #d32121; /* Old browsers */
+    background-image: background: -webkit-linear-gradient(bottom left, #d32121 0%, #ff6254 49%, #ff9a99 100%);
+    background-image: background: -o-linear-gradient(bottom left, #d32121 0%, #ff6254 49%, #ff9a99 100%);
+    background-image: background: linear-gradient(to top right, #d32121 0%, #ff6254 49%, #ff9a99 100%);
+    background: -o-linear-gradient(bottom left, #d32121 0%, #ff6254 49%, #ff9a99 100%);
+    background: linear-gradient(to top right, #d32121 0%, #ff6254 49%, #ff9a99 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d32121', endColorstr='#ff9a99',GradientType=1 );
+     
       width: 200px;
-      -webkit-border-top-right-radius:: 100%;
-      -moz-border-top-right-radius:: 100%;      /* Comptibilidad con firefox */
+      -webkit-border-top-right-radius: 100%;
+      -moz-border-top-right-radius: 100%;      /* Comptibilidad con firefox */
       border-top-right-radius: 100%;
       -moz-box-shadow: 0px 6px 0px #891818;
       -webkit-box-shadow: 0px 6px #891818;
@@ -107,8 +122,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d32121', end
       position: relative;
       right: 1px;
       bottom: 3px;
-              
-        } 
+               
+      } 
     
     #rojo:hover {
 
@@ -122,15 +137,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d32121', end
 
     #amarillo {
           
-background: #fcf176; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #fcf176 0%, #ffaf38 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #fcf176 0%,#ffaf38 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #fcf176 0%,#ffaf38 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf176', endColorstr='#ffaf38',GradientType=1 );
-
+    background: #fcf176; /* Old browsers */
+    background: -webkit-linear-gradient(bottom left, #fcf176 0%, #ffaf38 100%);
+    background: -o-linear-gradient(bottom left, #fcf176 0%, #ffaf38 100%);
+    background: linear-gradient(to top right, #fcf176 0%, #ffaf38 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf176', endColorstr='#ffaf38',GradientType=1 );
+    
       width: 200px;
-      -webkit-border-bottom-left-radius:: 100%;
-      -moz-border-bottom-left-radius:: 100%;      /* Comptibilidad con firefox */
+      -webkit-border-bottom-left-radius: 100%;
+      -moz-border-bottom-left-radius: 100%;      /* Comptibilidad con firefox */
       border-bottom-left-radius: 100%;
       -moz-box-shadow: 0px 6px 0px #aa8525;
       -webkit-box-shadow: 0px 6px #aa8525;
@@ -139,7 +154,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf176', end
       left: 1px;
       bottom: 2px;
       
-    }
+      }
     
     #amarillo:hover {
       
@@ -151,19 +166,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf176', end
       position:relative;
       top: 4px;
       
-    }
+      }
     
     #azul {
           
-background: #23538a; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #23538a 0%, #a7cfdf 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #23538a 0%,#a7cfdf 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #23538a 0%,#a7cfdf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23538a', endColorstr='#a7cfdf',GradientType=1 );
-
+    background: #23538a; /* Old browsers */
+    background: -webkit-linear-gradient(bottom left, #23538a 0%, #a7cfdf 100%);
+    background: -o-linear-gradient(bottom left, #23538a 0%, #a7cfdf 100%);
+    background: linear-gradient(to top right, #23538a 0%, #a7cfdf 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23538a', endColorstr='#a7cfdf',GradientType=1 );
+    
       width: 200px;
-      -webkit-border-bottom-right-radius:: 100%;
-      -moz-border-bottom-right-radius:: 100%;     /* Comptibilidad con firefox */
+      -webkit-border-bottom-right-radius: 100%;
+      -moz-border-bottom-right-radius: 100%;     /* Comptibilidad con firefox */
       border-bottom-right-radius: 100%;
       -moz-box-shadow: 0px 6px 0px #174e77;
       -webkit-box-shadow: 0px 6px #174e77;
@@ -184,4 +199,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23538a', end
       position:relative;
       top: 4px;
       
+    }
+
+    .simon {
+                              
+      font-family: 'Press Start 2P';
+          
+      }
+
+    .center {
+      margin-left:47.25%;
     }

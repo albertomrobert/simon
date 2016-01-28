@@ -19,7 +19,7 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/simon', {
+      .when('/', {
         templateUrl: 'views/simon.html',
         controller: 'SimonCtrl',
         controllerAs: 'simon'

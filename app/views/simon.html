@@ -1,1 +1,34 @@
-<p>This is the simon view.</p>
+<head>
+	<link href="http://fonts.googleapis.com/css?family=Press Start 2P" rel="stylesheet" type="text/css" />
+
+	<link rel="stylesheet" href="styles/simon.css">
+</head>
+
+	<table>
+	
+		<tr>
+			<td id="verde" ng-click="play('verde')"></td>
+			<td id="rojo" ng-click="play('rojo')"></td>
+		</tr>
+		
+		<tr>
+			<td id="amarillo" ng-click="play('amarillo')"></td>
+			<td id="azul" ng-click="play('azul')"></td>
+		</tr>
+	
+	</table>
+	
+	<div id="hole"></div>
+	
+	<h1 class="simon" id="titulo">{{titulo}}<br><br>{{colores}}</h1>
+	
+	<ul>
+	<h4><br>
+		<li>Verde:&emsp;&emsp;&emsp;&emsp;<span style="color:#45B124">{{acumuladorverde}}</span></li>
+		<li>Rojo:&emsp;&emsp;&emsp;&emsp;&emsp;<span style="color:#F1240F">{{acumuladorrojo}}</span></li>
+		<li>Amarillo:&emsp;<span style="color:#EECC10">{{acumuladoramarillo}}</span></li>
+		<li>Azul:&emsp; &emsp; &emsp;<span style="color:#23A8F5">{{acumuladorazul}}</span></li>
+	</h4><br>
+	</ul>
+	
+	<button type="button" class="center btn btn-default" ng-click='reset()'>RESET</button>
